@@ -1,0 +1,23 @@
+一些快捷键的使用：
+1、当需要输入文件的全路径时，应该是快速找到该文件然后将其拖动到git shell，而不是一个字母一个字母的输入。
+2、使用tab健快速找到文件
+
+Create a new repository on the command line:
+touch README.md 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:CoerWatt/Documents.git
+git push -u origin master
+
+To connect your local repository to your GitHub account, you will need to set a remote for your repository and push your commits to it:
+Push an existing repository from the command line:
+
+git remote add origin git@github.com:CoerWatt/Documents.git
+git push -u origin master  
+
+git config --get-regexp '^(remote|branch)\.'  
+git remote add origin2 git@github.com:CoerWatt/ProjectName.git  
+git push origin2 master
+
+  
